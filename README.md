@@ -42,7 +42,7 @@ You also need wkhtmltopdf installed:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/seo-analysis-tool.git
+git clone https://github.com/hihipy/seo-analysis-tool.git
 cd seo-analysis-tool
 ```
 
