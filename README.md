@@ -1,4 +1,4 @@
-# SEO Analysis Tool
+# seo-analysis-tool
 
 A Python tool for SEO analysis that generates PDF reports. Analyzes title tags, meta descriptions, link structure, image alt tags, mobile-friendliness, load time, and more.
 
