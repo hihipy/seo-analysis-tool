@@ -1,5 +1,16 @@
 # seo-analysis-tool
 
+[![Link Check](https://github.com/hihipy/seo-analysis-tool/actions/workflows/links.yml/badge.svg)](https://github.com/hihipy/seo-analysis-tool/actions/workflows/links.yml)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+**Built with**
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
+[![requests](https://img.shields.io/badge/requests-2C2D72?style=flat&logoColor=white)](https://requests.readthedocs.io)
+[![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-0E7C61?style=flat&logoColor=white)](https://www.crummy.com/software/BeautifulSoup/)
+[![pdfkit](https://img.shields.io/badge/pdfkit-EC1C24?style=flat&logoColor=white)](https://pypi.org/project/pdfkit/)
+[![markdown2](https://img.shields.io/badge/markdown2-000000?style=flat&logo=markdown&logoColor=white)](https://pypi.org/project/markdown2/)
+
 A Python tool for SEO analysis that generates PDF reports. Analyzes title tags, meta descriptions, link structure, image alt tags, mobile-friendliness, load time, and more.
 
 ## Features
