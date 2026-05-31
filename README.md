@@ -16,6 +16,7 @@ A Python tool for SEO analysis that generates PDF reports. Analyzes title tags, 
 ## Features
 
 **SEO Analysis:**
+
 - Title and meta description evaluation
 - Word count analysis
 - Link structure assessment
@@ -25,13 +26,15 @@ A Python tool for SEO analysis that generates PDF reports. Analyzes title tags, 
 - Canonical tag verification
 
 **PDF Reports:**
+
 - Detailed metric explanations
 - Custom formatting
 - Automated recommendations
 - Saved to Downloads folder
 
 **Other:**
-- Real-time logging
+
+- Live logging
 - Error handling
 - Command-line interface
 
@@ -56,12 +59,10 @@ You also need wkhtmltopdf installed:
 git clone https://github.com/hihipy/seo-analysis-tool.git
 cd seo-analysis-tool
 ```
-
 2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-
 3. Run the script:
 ```bash
 python seo_analyzer.py
@@ -71,7 +72,7 @@ python seo_analyzer.py
 
 1. Run the script
 2. Enter the URL when prompted
-3. Wait for analysis to complete
+3. Wait for the analysis to complete
 4. Find the generated PDF report in your Downloads folder
 
 ## Analyzed Metrics
@@ -97,20 +98,22 @@ The tool analyzes these SEO metrics:
 
 ## Acknowledgments
 
-- [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/) - HTML parsing
-- [pdfkit](https://pypi.org/project/pdfkit/) - PDF generation
-- [requests](https://docs.python-requests.org/) - HTTP requests
-- [markdown2](https://pypi.org/project/markdown2/) - Markdown processing
+- [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/): HTML parsing
+- [pdfkit](https://pypi.org/project/pdfkit/): PDF generation
+- [requests](https://docs.python-requests.org/): HTTP requests
+- [markdown2](https://pypi.org/project/markdown2/): Markdown processing
 
 ## License
 
 This project is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 You are free to:
+
 - Use, share, and adapt this work
 - Use it at your job
 
 Under these terms:
-- **Attribution** — Credit the original author
-- **NonCommercial** — No selling or commercial products
-- **ShareAlike** — Derivatives must use the same license
+
+- **Attribution:** Credit the original author
+- **NonCommercial:** No selling or commercial products
+- **ShareAlike:** Derivatives must use the same license
