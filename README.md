@@ -13,6 +13,8 @@
 
 A Python tool for SEO analysis that generates PDF reports. Analyzes title tags, meta descriptions, link structure, image alt tags, mobile-friendliness, load time, and more.
 
+---
+
 ## Features
 
 **SEO Analysis:**
@@ -38,6 +40,8 @@ A Python tool for SEO analysis that generates PDF reports. Analyzes title tags, 
 - Error handling
 - Command-line interface
 
+---
+
 ## Requirements
 
 Python 3.6+ and the following libraries:
@@ -51,6 +55,8 @@ You also need wkhtmltopdf installed:
 - **macOS:** `brew install wkhtmltopdf`
 - **Ubuntu:** `sudo apt-get install wkhtmltopdf`
 - **Windows:** Download from [wkhtmltopdf downloads](https://wkhtmltopdf.org/downloads.html)
+
+---
 
 ## Installation
 
@@ -68,12 +74,16 @@ pip install -r requirements.txt
 python seo_analyzer.py
 ```
 
+---
+
 ## Usage
 
 1. Run the script
 2. Enter the URL when prompted
 3. Wait for the analysis to complete
 4. Find the generated PDF report in your Downloads folder
+
+---
 
 ## Analyzed Metrics
 
@@ -89,6 +99,8 @@ The tool analyzes these SEO metrics:
 - Canonical Tags
 - Load Time
 
+---
+
 ## Technical Details
 
 - **HTML Parsing:** BeautifulSoup4 for webpage analysis
@@ -96,12 +108,16 @@ The tool analyzes these SEO metrics:
 - **Logging:** Logging system for debugging
 - **Error Handling:** Handles various edge cases
 
+---
+
 ## Acknowledgments
 
 - [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/): HTML parsing
 - [pdfkit](https://pypi.org/project/pdfkit/): PDF generation
 - [requests](https://docs.python-requests.org/): HTTP requests
 - [markdown2](https://pypi.org/project/markdown2/): Markdown processing
+
+---
 
 ## License
 
